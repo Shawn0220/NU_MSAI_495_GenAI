@@ -42,9 +42,18 @@ vae_hyperband/
 ├── tensorboard2.png       # Generated samples over epochs
 └── train_vae.py           # Main entry – Ray Tune HPO + training loop
 ```
+## TensorBoard
 
+```bash
+# (Optional) generate or refresh logs
+python beta_vae_tsb.py         
+
+# Launch the dashboard (default → http://localhost:6006)
+tensorboard --logdir runs
+```
 ---
 ## TensorBoard
+
 ![TensorBoard curves](vae_hyperband/tensorboard1.png)
 ![TensorBoard curves](vae_hyperband/tensorboard2.png)
 
