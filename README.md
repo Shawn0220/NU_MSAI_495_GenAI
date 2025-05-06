@@ -42,7 +42,7 @@ vae_hyperband/
 ├── tensorboard1.png       # Loss / KL curves
 ├── tensorboard2.png       # Generated samples over epochs
 └── train_vae.py           # Main entry – Ray Tune HPO + training loop
-'''
+```
 
 ---
 ## TensorBoard
