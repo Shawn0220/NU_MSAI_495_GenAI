@@ -1,0 +1,15 @@
+Failure # 1 (occurred at 2025-05-05_20-45-27)
+[36mray::ImplicitFunc.train()[39m (pid=3526051, ip=165.124.130.40, actor_id=b42111c835a01834d7d49f2001000000, repr=train_vae)
+  File "/projects/e32706/qhm7800_envs/nlp_hw00/lib/python3.10/site-packages/ray/tune/trainable/trainable.py", line 330, in train
+    raise skipped from exception_cause(skipped)
+  File "/projects/e32706/qhm7800_envs/nlp_hw00/lib/python3.10/site-packages/ray/air/_internal/util.py", line 107, in run
+    self._ret = self._target(*self._args, **self._kwargs)
+  File "/projects/e32706/qhm7800_envs/nlp_hw00/lib/python3.10/site-packages/ray/tune/trainable/function_trainable.py", line 45, in <lambda>
+    training_func=lambda: self._trainable_func(self.config),
+  File "/projects/e32706/qhm7800_envs/nlp_hw00/lib/python3.10/site-packages/ray/tune/trainable/function_trainable.py", line 261, in _trainable_func
+    output = fn()
+  File "/gpfs/home/qhm7800/genai/vae_hyperband/train_vae.py", line 75, in train_vae
+    tune.report(loss=total_loss / len(train_loader.dataset))
+  File "/projects/e32706/qhm7800_envs/nlp_hw00/lib/python3.10/site-packages/ray/train/_internal/session.py", line 663, in wrapper
+    return fn(*args, **kwargs)
+TypeError: report() got an unexpected keyword argument 'loss'
