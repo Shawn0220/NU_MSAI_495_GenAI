@@ -53,7 +53,9 @@ vae_hyperband/
 
 ---
 ## TensorBoard
-asdf
+```bash
+python beta_vae_tsb.py          # 生成 / 刷新日志
+tensorboard --logdir=runs       # 启动面板，默认 http://localhost:6006
 ![TensorBoard curves](vae_hyperband/tensorboard1.png)
 ![TensorBoard curves](vae_hyperband/tensorboard2.png)
 
