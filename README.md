@@ -50,7 +50,7 @@ python beta_vae_tsb.py
 
 # Launch the dashboard (default → http://localhost:6006)
 tensorboard --logdir runs
-```
+
 ---
 ## TensorBoard
 
