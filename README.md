@@ -1,6 +1,6 @@
 # VAE from Scratch for Fashion Image Generation
 
-![TensorBoard curves](vae_hyperband/tensorboard1.png)
+
 
 **Author & Course:** NU _MSAI 495 – Generative AI  
 **Goal:** Learn a clean latent representation of Fashion‑MNIST with a **Variational Autoencoder (VAE)** (and its β‑VAE variant) and generate realistic fashion images.  
@@ -44,5 +44,5 @@ vae_hyperband/
 ├── tensorboard2.png       # Generated samples over epochs
 └── train_vae.py           # Main entry – Ray Tune HPO + training loop
 
-![TensorBoard curves](vae_hyperband/tensorboard1.png)
 
+![TensorBoard curves](vae_hyperband/tensorboard1.png)
