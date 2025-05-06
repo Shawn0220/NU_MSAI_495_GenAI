@@ -6,12 +6,12 @@
 
 | Stage | Location (file) | What’s inside |
 |-------|-----------------|---------------|
-| **Data loading** | `train_vae.py` | Reads Fashion‑MNIST, applies transforms, wraps in `DataLoader`. |
-| **Model definition** | `model.ipynb` | Builds both vanilla VAE and β‑VAE modules in PyTorch. |
-| **Training loop** | `train_vae.py` | Runs forward‑pass, computes BCE + KL (or β*KL), back‑prop, and logs metrics. |
-| **Checkpoint save / load** | `train_vae.py` | Writes `state_dict` to `checkpoints/` each epoch and supports `--resume` to continue training. |
-| **Hyperparameter tuning** | `train_vae.py` + `ray` | Ray Tune explores latent dim, learning rate, batch size; results stored under `ray_results/`. |
-| **Experiment tracking** | `beta_vae_tsb.py` + TensorBoard | Script copies images/metrics into `runs/`; view with `tensorboard --logdir runs`. |
+| **Data loading** | `train_vae.py` | Reads Fashion‑MNIST, applies transforms, wraps in `DataLoader` |
+| **Model definition** | `model.ipynb` | Builds both vanilla VAE and β‑VAE modules in PyTorch |
+| **Training loop** | `train_vae.py` | Runs forward‑pass, computes BCE + KL (or β*KL), back‑prop, and logs metrics |
+| **Checkpoint save / load** | `train_vae.py` | Writes model parameters to file each epoch |
+| **Hyperparameter tuning** | `train_vae.py` + `ray` | Ray Tune explores latent dim, learning rate, batch size and store results |
+| **Experiment tracking** | `beta_vae_tsb.py` + TensorBoard | Script copies images/metrics into `runs/`; view with `tensorboard --logdir runs` |
 | **Cluster execution** | `slurm_job.sh` | Single‑line submit (`sbatch`) sets up environment and launches Ray sweep on SLURM. |
 
 > **Why it matters:** these pieces turn a classroom demo into a **repeatable experiment pipeline**—you can stop/restart jobs, sweep hyper‑parameters at scale, and visualise progress in real time.
