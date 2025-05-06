@@ -1,8 +1,7 @@
 # VAE from Scratch for Fashion Image Generation
 
-
-**Author & Course:** NU _MSAI 495 – Generative AI  
-**Goal:** Learn a clean latent representation of Fashion‑MNIST with a **Variational Autoencoder (VAE)** (and its β‑VAE variant) and generate realistic fashion images.  
+ 
+**Summary:** Learn a clean latent representation of Fashion‑MNIST with a **Variational Autoencoder (VAE)** (and its β‑VAE variant) and generate realistic fashion images.  
 **Highlights**
 
 - ✨ *From‑scratch* PyTorch implementation (no Lightning)  
