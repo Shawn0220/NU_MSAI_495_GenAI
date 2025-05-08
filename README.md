@@ -63,7 +63,7 @@ tensorboard --logdir=runs       # launch dashboard (default http://localhost:600
 ---
 ## Best_config
 ![TensorBoard curves](vae_hyperband/best_config.png)
-
+![TensorBoard curves](vae_hyperband/generated.png)
 ---
 
 
