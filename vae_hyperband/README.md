@@ -6,7 +6,6 @@
 
 | Stage | Location (file) | What’s inside |
 |-------|-----------------|---------------|
-| **Data loading** | `train_vae.py` | Reads Fashion‑MNIST, applies transforms, wraps in `DataLoader` |
 | **Model definition** | `model.ipynb` | Builds both vanilla VAE and β‑VAE modules in PyTorch |
 | **Training loop** | `train_vae.py` | Runs forward‑pass, computes BCE + KL (or β*KL), back‑prop, and logs metrics |
 | **Checkpoint save / load** | `train_vae.py` | Writes model parameters to file each epoch |
