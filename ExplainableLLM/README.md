@@ -55,7 +55,8 @@ A test script compares the model's generations against the ground-truth titles o
 - Integrated Gradients + Attention Side-by-side
 - Example:
   ![example](explain_meeting_agenda_dual.png)
-
+Given the input "Let us schedule a meeting to discuss the Q2 roadmap and budget forecast.\nSubject:", the trained model generated "Agenda eting me" instead of the expected output "Meeting Agenda".
+This suggests the model has learned relevant vocabulary but struggles with word ordering, indicating a potential weakness in sequence modeling or decoding strategy.
 ---
 
 ## 📁 Key Files
@@ -69,6 +70,4 @@ A test script compares the model's generations against the ground-truth titles o
 | `explain_meeting_agenda_dual.png` | Example heatmap visualization |
 
 ---
-
-## 🧪 Example Result
 
