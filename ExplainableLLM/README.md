@@ -62,7 +62,7 @@ A test script compares the model's generations against the ground-truth titles o
 
 | File | Description |
 |------|-------------|
-| `train.py` | GPT2 training on AESLC |
+| `train_gpt2.py` | GPT2 training on AESLC |
 | `evaluate_decoding_strategies.py` | Run inference on 100 samples with multiple decoding strategies |
 | `explain_dual_heatmap.py` | Generate dual heatmap of attention and attribution for a given sample |
 | `decoding_comparison.csv` | Output file with decoding results |
