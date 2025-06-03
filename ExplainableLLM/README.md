@@ -60,8 +60,11 @@ This suggests the model has learned relevant vocabulary but struggles with word 
 ---
 
 ### ✅ Different decoding strategies Example
-- Input: I attach an updated list (to Feb 5) of the terminated contracts to date. F= or informational purposes, I have added a column that sets out the settleme= nt dates for contracts we have settled, so there may be some additional cou= nterparties added to my previous list where there was no ECC agreed termina= tion date but we have settled and terminated (no one needs to do anything f= or these c/ps). Again, the first table sets forth the physical contracts t= hat have been terminated and the second sets out the financial contracts, a= nd all data reflects ECC's (not the counterparties') perception of the worl= d. I have vetted my list against Blakes' master list and believe this is a= ccurate in all respects. As I indicated in my previous e-mails to you ther= e were a few date discrepancies and I have previously provided you with the= corrected dates for El Paso, Marathon, AEC Marketing, Calpine (Encal), Wil= liams Energy and Baytex (all physical), all which are now correctly reflect= ed in the attachment. A few others that were not previously on the list in= clude Coast Energy (physical) which auto terminated on Dec 2 and PrimeWest = Energy (physical) which auto terminated on Dec 2. =20 Thanks	Terminated Counterparty Contracts	Terminated Contracts	TW Contract Terminations	El Paso, Marathon, AEC Marketing, Cal
-- Ground Truth Trader Meeting - 2/7 @ 7:45 a.m. (CST) - ECS 06752	Trader Meeting - 2/7 @ 7:45	Trader Meeting - 2/7 @ 7:45	Trader Meeting - 2/7 @ 7:45
+- Input: This email is acknowledgement from the Power Pool of Alberta of the change in direct sales/forward contract registration for contracts that are currently registered with the Power Pool between Suncor Energy and Enron Canada Power Corporation for trading after December 29 HE 1 2001. On January 4 the Power Pool received your acknowledgement of Enron's change in the source asset for the direct sales/forward contract registrations for contract # 1421 to modify the source from the Sundance 3 unit (SD3) to Enron's unmetered source asset (ECP-). The modified registration terms will be effective December 29 HE 1 2001 and will apply until the expiry date of the contract registration for net settlement purposes. If you have any questions relating to this matter, please give me a call.
+- Ground Truth: Power Pool
+-  Greedy: Power Pool Change
+-  Top-k: Enron - changes in central authority registration
+-  Top-p: Power Pool Rev. Registration 
 
 ## 📁 Key Files
 
