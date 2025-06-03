@@ -34,7 +34,13 @@ We compare different decoding strategies to evaluate the quality and diversity o
 - `Top-k sampling (k=50)`
 - `Top-p (nucleus) sampling (p=0.9)`
 
-A test script compares the model's generations against the ground-truth titles on the last 100 samples of the dataset, and saves results in `decoding_comparison.csv`.
+A test script compares the model's generations against the ground-truth titles on the last 20 samples of the dataset, and saves results in `decoding_comparison.csv`.
+### ✅ Different decoding strategies Example
+- Input: This email is acknowledgement from the Power Pool of Alberta of the change in direct sales/forward contract registration for contracts that are currently registered with the Power Pool between Suncor Energy and Enron Canada Power Corporation for trading after December 29 HE 1 2001. On January 4 the Power Pool received your acknowledgement of Enron's change in the source asset for the direct sales/forward contract registrations for contract # 1421 to modify the source from the Sundance 3 unit (SD3) to Enron's unmetered source asset (ECP-). The modified registration terms will be effective December 29 HE 1 2001 and will apply until the expiry date of the contract registration for net settlement purposes. If you have any questions relating to this matter, please give me a call.
+- Ground Truth: Power Pool
+-  Greedy: Power Pool Change
+-  Top-k: Enron - changes in central authority registration
+-  Top-p: Power Pool Rev. Registration 
 
 ---
 
@@ -59,12 +65,6 @@ Given the input "Let us schedule a meeting to discuss the Q2 roadmap and budget 
 This suggests the model has learned relevant vocabulary but struggles with word ordering, indicating a potential weakness in sequence modeling or decoding strategy.
 ---
 
-### ✅ Different decoding strategies Example
-- Input: This email is acknowledgement from the Power Pool of Alberta of the change in direct sales/forward contract registration for contracts that are currently registered with the Power Pool between Suncor Energy and Enron Canada Power Corporation for trading after December 29 HE 1 2001. On January 4 the Power Pool received your acknowledgement of Enron's change in the source asset for the direct sales/forward contract registrations for contract # 1421 to modify the source from the Sundance 3 unit (SD3) to Enron's unmetered source asset (ECP-). The modified registration terms will be effective December 29 HE 1 2001 and will apply until the expiry date of the contract registration for net settlement purposes. If you have any questions relating to this matter, please give me a call.
-- Ground Truth: Power Pool
--  Greedy: Power Pool Change
--  Top-k: Enron - changes in central authority registration
--  Top-p: Power Pool Rev. Registration 
 
 ## 📁 Key Files
 
