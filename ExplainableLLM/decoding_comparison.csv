@@ -1,0 +1,160 @@
+email_body,ground_truth,greedy,top-k,top-p
+"The EnronOnline Audit is scheduled to begin the week of June 4, 2001 and is expected to take approximately two months to complete.
+The audit will be executed by Arthur Andersen and led by Jennifer Stevenson and Russ Bouwhuis.
+We will schedule an opening meeting with you the week of  June 4, 2001 to discuss audit scope and any concerns or suggestions you may have.
+The objective of the audit will be to determine whether procedures and controls exercised over activities are adequate and operating effectively.
+Results of the audit will be discussed with you and other appropriate personnel both during the audit and at the audit closing meeting.
+We will endeavor to conduct this audit in a manner that will minimize interruption of your normal business activities and we look forward to working with you and your personnel.
+Please call me at x5-4554 if have any questions.
+Mechelle Atwood Director, Enron Assurance Services Enron Wholesale Services
+",Enron OnLine Audit Notification,"EnronOnline Audit - June 4, 2001",Audit Reminder,EnronOnline Audit
+"Andy,  Just finished meeting with Nelson from gas fundies and Martin Lim from power fundies to discuss getting the Exotica libraries migrated ASAP.
+The best I can get from them is ""hopefully tomorrow"" as far as a date for migration.
+They are dealing with the validation of calculation routines between the UBS libraries and the Exotica libraries since Exotica will play a role in pnl calculation.
+I will follow up on this again tomorrow.
+I told them that ""hopefully tomorrow"" was not the answer I was looking for so I would help out in any way.
+They recognize that we need these libraries loaded on our machines regardless of their validation.
+Also, Nelson showed me a list of the products that are scheduled for 'day 1' and power options are not on that list.
+There are a lot of people working with that list to prioritize support so this is just a heads up for you.
+Later.
+Rob
+",Exotica add-in,Exotica Libraries,Exotica Libraries,"""Pnl Migration"
+"According to the International Coal desk, the three brokers that have expressed interest are:  -	TFS -	GFI -	NatSource  Apparently the desk is not as enthusiastic about NatSource from their perspective, though they would be happy to see the other two getting access.
+Let me know if I can further assist.
+Thanks,
+",Int'l Coal & Broker Client,NatSource,NatSource Influence,NatSource's Open Access
+"Offline Contact Status - 6/6/01   1.
+Commerce One C1 is working on a valuation analysis, including customer discussions.
+A meeting in Austin with Mark Hoffman and Matt Graves is being arranged for Thursday or Friday, 6/21 or 6/22.
+C1's current position is that the value of an Enron company owning the Offline IPR is $50 - $100 million.
+2.
+Reuters Philippe and Andy are following up with Phil Lynch and others to define a go-forward plan.
+3.
+Sungard Executive meeting being scheduled.
+Also exploring interest in mid/back office systems and DealBench.
+4.
+SAP Conference call with Brian Bartoldson of SAP Consulting scheduled for this Thursday, 6/7, at 2pm.
+Brian will provide additional ""expert"" input to Gary Fromer, who is still trying to sort through the size of the Offline market opportunity.
+5.
+Sun/iPlanet Meeting with John Fowler of Sun M&A scheduled in Houston on Tuesday, 6/12 .
+Offline will be discussed from 9am - 12:30pm, DealBench from 12:30pm - 3pm.
+6.
+Microsoft Working with Peter Houston, Group Program Manager for Active Directory, to see if he can help us get a meeting in Redmond with the right Microsoft audience.
+Have been referred to James Utzschneider, one of the Microsoft application product executives.
+Philippe is working with Microsoft contacts also from the technology side.
+7.
+BEA Initial interest confirmed via conference call last week.
+Trying to schedule initial meeting for presentation and demo.
+8.
+Siebel Working with Beth Perlman and Joe Wong to establish contact.
+9.
+HP Working with local HP representative, Michael Morrison, to establish contact.
+10.
+TIBCO/Accenture On hold.
+11.	i2 On hold.
+",Latest Offline Contact Status,BEA Meeting with Microsoft,WSJ/Enron Off-site,"SPG/Online Pricing Meeting - Wednesday, November"
+"Savita  In our testing we have found the inability to manage our wing-strikes risk.
+The way it works for power markets is that most traders would be unwillling to trade more than 250MW of a wing strike without widening out the bid offer.
+Similarly the risk at some point can get high enough to suspend wing strikes.
+In the current option manager, the only possibility is to increase or decrease the ATM suite vol (which has little effect on the wing strikes anyway).
+For that reason we need a volumetric control for each strike.
+The volumeteric control could be a toggle which could be turned on or off.
+If the volumetric control toggle si on, corresponding to each strike, there would be  a maximum volume.
+If  the strike is hit or lifted by that volume, that strike is automatically suspended and the trader notified.
+This allows the individual strike risk to be limited.
+This also allows us to put some less liquid markets out there - where the price discovery is evolving.
+In those products we can put the volume to be limited at 100 MW for each strike making the risk more manageable.
+Pls give me a call, so that we can discuss this further.
+Harry Arora
+",Option Manager - extra features,Wing-strikes risk,Wing-strikes risk,Wing-strikes Risk Management
+"Andy,  Mark Tawney told me that you are setting up a cross-commodity desk.
+I think it very interesting.
+Could you give me more details?
+Depending on exactly you have in mind, we may be able to help you using weather products.
+Thanks,
+",Cross-commodity desk,Cross-commodity desk,Cross-commodity desks,Cross-Commodity Desk
+"Greg Whalley has requested a Trader's Meeting tomorrow morning @ 7:45 a.m. (CST).
+The meeting will be held in his office, ECS 06752.
+The dial-in number for Portland and Calgary is listed below.
+",Trader Meeting - 2/7 @ 7:45 a.m. (CST) - ECS 06752,Trader Meeting - 2/7 @ 7:45,Trader Meeting - 2/7 @ 7:45,Trader Meeting - 2/7 @ 7:45
+"I attach an updated list (to Feb 5) of the terminated contracts to date.
+F= or informational purposes, I have added a column that sets out the settleme= nt dates for contracts we have settled, so there may be some additional cou= nterparties added to my previous list where there was no ECC agreed termina= tion date but we have settled and terminated (no one needs to do anything f= or these c/ps).
+Again, the first table sets forth the physical contracts t= hat have been terminated and the second sets out the financial contracts, a= nd all data reflects ECC's (not the counterparties') perception of the worl= d.  I have vetted my list against Blakes' master list and believe this is a= ccurate in all respects.
+As I indicated in my previous e-mails to you ther= e were a few date discrepancies and I have previously provided you with the=  corrected dates for El Paso, Marathon, AEC Marketing, Calpine (Encal), Wil= liams Energy and Baytex (all physical), all which are now correctly reflect= ed in the attachment.
+A few others that were not previously on the list in= clude Coast Energy (physical) which auto terminated on Dec 2 and PrimeWest = Energy (physical) which auto terminated on Dec 2.
+=20  Thanks
+",Terminated Counterparty Contracts,Terminated Contracts,TW Contract Terminations,"El Paso, Marathon, AEC Marketing, Cal"
+"Further to prior e-mails, I have now confirmed with Blakes that the following c/ps originally had the wrong termination dates set.
+They have now been corrected to the appropriate dates, all of which were Feb 1, 2002 (John, these are the same ones I identified to you last week).
+AEC Marketing, physical, gas  - February 1, 2002 Calpine Canada Natural Gas Partnership (Encal) physical, gas - February 1, 2002 El Paso Merchant Energy, physical gas - February 1, 2002 Williams Energy Marketing & Trade Co. - February 1, 2002  Greg
+",Termination Dates,C/ps,c/ps,Calpine Co.
+"I have updated the list to reflect all changes received.
+If you notice any more errors or if any counterparties have been reassigned, please let me know so that I can continue to make changes.
+Also, please see Louise's additions at the bottom of the list (from Adams Resources Marketing downward) and let me know if you have good relationships with any of these counterparties and could please take responsibility for them.
+Otherwise, our marketing team will be contacting these customers.
+Finally, please note that even though there may be names for a specific counterparty in both the gas and the power columns, the person ultimately responsible for contacting that customer regarding the password application and registration forms is the person in the PA column on the far right.
+Please remember when you are speaking to your customers to get all contact info possibly including contact name, phone and fax, e-mail, and address and send all this to Mary Griff Gray so that she can send them the PA and registration forms.
+Please call me at 5-3614 if you have any questions or come by my desk at 06541.
+Jennifer McQuade
+",Updated List,PA and Registration Changes,Password Application Changes,List of Legal Approval Forms for 6/20
+"The name for the Canadian entity which will enter into both Master Agreements and individual commodity transactions is: ""UBS Warburg Energy (Canada) Ltd."", as confirmed by Lou Eber: UBS Chief Legal Counsel.
+I am working on chasing down the parental guarantee issue.
+Dave
+",Canadian legal entity,Canadian Guaranty,Transfer of Canadian Influence,Canadian Agreements
+"John,  Attached is a spreadsheet that outlines the transactions with the Power Pool today, specifically the $6.95 M that will be withheld as a security deposit for Enron Canada Power Corp.
+If you have any questions or concerns, please give me a call.
+<<Enron Security Jan 29 2002.xls>>
+",Power Pool,Power Pool,Power Pool,Power Pool Terminations Today
+"Hi John,       As per our conversation last week, I just wanted to double check on a potential raise before the deal closes on Friday.
+I know that more than a few non-promotional raises have been offered and accepted for the transfer to UBS, and I'd like to make absolutely sure that I'm not eligible for one.
+As Cowan says, potentially the bonus pool may be much bigger next year, which is great, but it's not for sure.
+And given the promises Enron has dolled out over the years, it doesn't mean that much right now, especially considering it's in UBS's best interest for us not to make a killing in the first year in order to buy out the company at a lower price.
+Thanks,
+",UBS,UBS,Cowan,Enron/Cowan
+"This email is acknowledgement from the Power Pool of Alberta of the change in direct sales/forward contract registration for contracts that are currently registered with the Power Pool between Chevron Canada Resources and Enron Canada Power Corporation for trading after December 29 HE 1 2001.
+On January 4 the Power Pool received your acknowledgement of Enron's change in the source asset for the direct sales/forward contract registrations for contract # 1947 to modify the source from the Sundance 3 unit (SD3) to Enron's unmetered source asset (ECP-).
+The modified registration terms will be effective December 29 HE 1 2001 and will apply until the expiry date of the contract registration for net settlement purposes.
+As for the sink asset related to direct sales/forward contract # 1947, Enron has acknowledged and accepted your change to the sink asset from CH1A to CH1U.
+This change will be effective January 1, 2002 HE 1 and our systems will be changed today.
+If you have any questions relating to this matter, please give me a call.
+",Power Pool,Change to sink asset,Change to sink asset,Change in Source  Asset - CH1A to
+"This email is acknowledgement from the Power Pool of Alberta of the change in direct sales/forward contract registration for contracts that are currently registered with the Power Pool between Suncor Energy and Enron Canada Power Corporation for trading after December 29 HE 1 2001.
+On January 4 the Power Pool received your acknowledgement of Enron's change in the source asset for the direct sales/forward contract registrations for contract # 1421 to modify the source from the Sundance 3 unit (SD3) to Enron's unmetered source asset (ECP-).
+The modified registration terms will be effective December 29 HE 1 2001 and will apply until the expiry date of the contract registration for net settlement purposes.
+If you have any questions relating to this matter, please give me a call.
+",Power Pool,Power Pool Change,Enron - changes in central authority registration,Power Pool Rev. Registration
+"This email is acknowledgement from the Power Pool of Alberta of the change in direct sales/forward contract registration for contracts that are currently registered with the Power Pool between Lethbridge Ironworks and Enron Canada Power Corporation for trading after December 29 HE 1 2001.
+On January 7 the Power Pool received your acknowledgement of Enron's change in the source asset for the direct sales/forward contract registrations for contract # 934 to modify the source from the Sundance 3 unit (SD3) to Enron's unmetered source asset (ECP-).
+The modified registration terms will be effective December 29 HE 1 2001 and will apply until the expiry date of the contract registration for net settlement purposes.
+In addition, as has been verbally communicated to you, the Power Pool was required to modify a direct sales/forward contract with Enron Canada Power Corporation that was registered with the Power Pool in 2001 due to the sale of the Sundance 3 unit effective December 29 HE 1 2001.
+The details of these changes are provided below.
+*********************************** Original Contract Number: 933 Terminated: December 28 HE 24 Source:  Enron Sundance 3 (Enron's metered asset) Sink: LI1L  New Contract Number: 2053 Begin Date: December 29 HE 1 Expiry Date: December 31 HE 24 Source:  Enron ECP- (Enron's unmetered asset) Sink: LI1L  If you have any questions relating to this matter, please give me a call.
+",Power Pool,Power Pool - Alberta,Power Pool Update - January 7,Power Pool Change in Indirect Sales/Forward Contracts
+"This email is acknowledgement from the Power Pool of Alberta of the change in direct sales registration for contracts that are currently registered with the Power Pool between your organization and Enron Canada Power Corporation for trading after December 29 HE 1 2001.
+On January 4 the Power Pool received your acknowledgement of Enron's change in the source asset for the direct sales registrations for contracts 259, 260, 1950 to 1976 (total of 29 contracts) to modify the source from the Sundance 3 unit (SD3) to Enron's unmetered source asset (ECP-).
+The modified registration terms will be effective December 29 HE 1 2001 and will apply until the expiry date of the contract for net settlement purposes.
+In addition, as has been verbally communicated to you, the Power Pool was required to modify two of Encore/EPCOR's direct sales contracts with Enron Canada Power Corporation that were registered with the Power Pool in 2001 due to the sale of the Sundance 3 unit effective December 29 HE 1 2001.
+The details of these changes are provided below.
+*********************************** Original Contract Number: 148 Terminated: December 28 HE 24 Source:  Enron Sundance 3 (Enron's metered asset) Sink: EA1U  New Contract Number: 2050 Begin Date: December 29 HE 1 Expiry Date: December 31 HE 24 Source:  Enron ECP- (Enron's unmetered asset) Sink: EA1U *********************************** Original Contract Number: 245 Terminated: December 28 HE 24 Source:  Enron Sundance 3 (Enron's metered asset) Sink: ENC+  New Contract Number: 2051 Begin Date: December 29 HE 1 Expiry Date: December 31 HE 24 Source:  Enron ECP- (Enron's unmetered asset) Sink: ENC+ ***********************************  If you have any questions relating to this matter, please give me a call.
+",Power Pool of Alberta,Power Pool Change,Power Pool of Alberta Update,Conex - Change to the Source
+"John,  Further to the voice message that I left you, I have recalculated the amount of security that would be required if all of the modified direct sales contracts are acknowledged by noon January 4.
+The calculations are still a bit rough but I thought this spreadsheet would provide you with something to review.
+I have used a $35 Pool Price in the calculations.
+Note the additional tabs in the spreadsheet that detail the hourly generation that the Pool has received for SD3 and SD4 .
+In determining the actual security required, we will need to review the megawatts in the contracts registered in detail once we have the acknowledgements tomorrow.
+For simplicity I have assumed that everything is base load and I know this is not correct.
+Once we know exactly what contracts we are looking at, we can fine tune the calculation.
+<<December SD3 and SD4.xls>>
+",Enron Security,Revised Direct Sales Contracts,Revised SD3/SD4,Revised Direct Sales Contracts
+"Make sure that all curves are downloaded by the end of simulation, 11:00 CST, tomorrow.
+Ideally, the 2/7/02 curves should be marked in the morning prior to simulation.
+We have been instructed to kick the calculation off as close to 11:00 CST as possible.
+This is to ensure that ALL downstream systems are able to run through the simulation.
+Please forward to all applicable traders.
+Thanks,
+",Simulation Curves,ENA Curves,GDI curves,TW Curves
+"John:  Do you need Accumap day one?
+Carmen said that it had not been renewed so do you have access to it now?
+If you do need an account how many and for who?
+thanks,
+",IHS Accumap,Accumap day one,Crescendo,Accumap day one
