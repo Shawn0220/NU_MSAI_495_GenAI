@@ -12,7 +12,7 @@ print(data[:3])
 
 
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-tokenizer.pad_token = tokenizer.eos_token  # 避免 pad token 问题
+tokenizer.pad_token = tokenizer.eos_token  # gpt2 doesn't have pad token 
 
 # data = [{"question": "What's the capital of Japan?", "answer": "Tokyo."}]
 
@@ -25,7 +25,7 @@ def preprocess(example):
         padding='max_length',
         truncation=True,
         max_length=128,
-        return_tensors=None,   # 要的是 list[int] 而不是 tensor
+        return_tensors=None,  
     )
 
     labels = tokenized["input_ids"].copy()
@@ -53,7 +53,7 @@ training_args = TrainingArguments(
     warmup_steps=20,
     learning_rate=5e-5,
     weight_decay=0.01,
-    fp16=True,               # 如果使用支持的 GPU
+    fp16=True,              
 )
 
 trainer = Trainer(
